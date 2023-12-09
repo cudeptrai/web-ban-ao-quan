@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/font/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"> </script>
+    <title>Web bán hàng</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="toggle d-md-none">
+                <i style="font-size: 25px;" class="fa-solid fa-bars"></i>
+            </div>
+            <div class="navbar-mobile d-md-none">
+                <div class="navbar-mobile-sub">
+                    <div class="login"><a href="">Đăng Nhập</a></div>
+                    <ul>
+                        <li><a href="">Nữ</a></li>
+                        <li><a href="">Nam</a></li>
+                        <li><a href="">Trẻ em</a></li>
+                        <li><a style="color: #FF2223;" href="">THÁNG 12 - SALE ĐẬM SÂU</a></li>
+                        <li><a href="">Lifestyle</a></li>
+                        <li><a href="">Về chúng tôi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar row">
+                <ul class="navbar-left col-md-6 d-none d-md-flex">
+                    <li class="navbar-left-menu"><a href="">nữ</a>
+                        <div class="navbar-left-dropdown">
+                            <div class="navbar-left-dropdown-sub">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <ul class="navbar-left-dropdown-category">
+                                            <li><a href="">NEW ARRIVAL</a></li>
+                                            <li><a href="">SEASON - MIỀN NAM</a></li>
+                                            <li><a href="">ARTISANAL DELICATE</a></li>
+                                            <li><a href="">BLOSSOMS DELIGHT</a></li>
+                                            <li><a href="">DIỄM THƯ</a></li>
+                                            <li><a href="">THE WHISPER OF CLASSY</a></li>
+                                            <li><a href="">QUIETLUXURY</a></li>
+                                            <li><a href="">EXPRESS - FALL/WINTER 2023 COLLECTION</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2">
+                                        <h3>
+                                            <a href="">ÁO</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Áo sơ mi</a></li>
+                                            <li><a href="">Áo kiểu</a> </li>
+                                            <li><a href="">Áo croptop</a> </li>
+                                            <li><a href="">Áo dáng peplum</a> </li>
+                                            <li><a href="">Áo thun/ len ngắn tay</a> </li>
+                                            <li><a href="">Áo thun/ len dài tay</a> </li>
+                                        </ul>
+                                        <br>
+                                        <h3>
+                                            <a href="">CHÂN VÁY</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Chân váy bút chì</a> </li>
+                                            <li><a href="">Chân váy chữ A</a> </li>
+                                            <li><a href="">Chân váy xếp ly</a> </li>
+                                            <li><a href="">Chân váy kiểu</a> </li>
+                                            <li><a href="">Chân váy jeans</a> </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2">
+                                        <h3>
+                                            <a href="">ÁO KHOÁC</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Áo vest/ blazer</a> </li>
+                                            <li><a href="">Áo khoác dáng lửng</a> </li>
+                                            <li><a href="">Áo dạ</a> </li>
+                                            <li><a href="">Áo phao</a> </li>
+                                            <li><a href="">Áo khoác len</a> </li>
+                                            <li><a href="">Áo măng tô</a> </li>
+                                        </ul>
+                                        <br>
+                                        <h3>
+                                            <a href="">ĐẦM</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Đầm kiểu</a> </li>
+                                            <li><a href="">Đầm maxi/ voan</a> </li>
+                                            <li><a href="">Đầm thun</a> </li>
+                                    </div>
+                                    <div class="col-2">
+                                        <h3>
+                                            <a href="">ÁO DÀI</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Áo dài</a> </li>
+                                        </ul>
+                                        <br>
+                                        <h3>
+                                            <a href="">SENORA</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Senora - Đầm dạ hội</a> </li>
+                                    </div>
+                                    <div class="col-2">
+                                        <h3>
+                                            <a href="">SET BỘ</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Set bộ vest</a> </li>
+                                            <li><a href="">Set bộ kiểu</a> </li>
+                                            <li><a href="">Set bộ thun</a> </li>
+                                        </ul>
+                                        <br>
+                                        <h3>
+                                            <a href="">PHỤ KIỆN</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Chân váy bút chì</a> </li>
+                                            <li><a href="">Chân váy chữ A</a> </li>
+                                            <li><a href="">Chân váy xếp ly</a> </li>
+                                            <li><a href="">Chân váy kiểu</a> </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2">
+                                        <h3>
+                                            <a href="">QUẦN & JUMPSUIT</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Đồ lót</a> </li>
+                                            <li><a href="">Phụ kiện</a> </li>
+                                            <li><a href="">Giày/dép & Sandals</a> </li>
+                                            <li><a href="">Túi/ ví</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar-left-menu"><a href="">nam</a>
+                        <div class="navbar-left-dropdown">
+                            <div class="navbar-left-dropdown-sub">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <ul class="navbar-left-dropdown-category">
+                                            <li><a href="">NEW ARRIVAL</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2">
+                                        <h3>
+                                            <a href="">ÁO</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Áo thun</a></li>
+                                            <li><a href="">Áo khoác Nam</a></li>
+                                            <li><a href="">Áo polo</a></li>
+                                            <li><a href="">Áo sơ mi</a></li>
+                                            <li><a href="">Áo phao</a></li>
+                                            <li><a href="">Áo len</a></li>
+                                            <li><a href="">Áo vest</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2">
+                                        <h3>
+                                            <a href="">QUẦN NAM</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Quần jeans</a></li>
+                                            <li><a href="">Quần lửng/short</a></li>
+                                            <li><a href="">Quần dài</a></li>
+                                            <li><a href="">Quần khaki</a></li>
+                                            <li><a href="">Quần tây</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2">
+                                        <h3>
+                                            <a href="">GIÀY & DÉP</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Giày/Dép</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2">
+                                        <h3>
+                                            <a href="">PHỤ KIỆN</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Phụ kiện</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar-left-menu"><a href="">trẻ em</a>
+                        <div class="navbar-left-dropdown">
+                            <div class="navbar-left-dropdown-sub">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <ul class="navbar-left-dropdown-category">
+                                            <li><a href="">NEW ARRIVAL</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2">
+                                        <h3>
+                                            <a href="">ÁO DÀI</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Áo dài</a></li>
+                                            <li><a href="">Áo dài</a></li>
+                                            <li><a href="">Áo dài</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar-left-menu"><a href=""><strong style="color: #FF2223;">tháng 12 -sale đậm
+                                sâu</strong></a>
+                        <div class="navbar-left-dropdown">
+                            <div class="navbar-left-dropdown-sub">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <h3>
+                                            <a style="color: #FF2223;" href="">NỮ</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Áo ( sơ mi - thun )</a></li>
+                                            <li><a href="">Áo khoác ( blazer - phao - dạ )</a></li>
+                                            <li><a href="">Đầm</a></li>
+                                            <li><a href="">Chân váy</a></li>
+                                            <li><a href="">Quần</a></li>
+                                            <li><a href="">Đồ lót - Phụ kiện</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2">
+                                        <h3>
+                                            <a style="color: #FF2223;" href="">TRẺ EM</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Bé gái</a></li>
+                                            <li><a href="">Bé trai</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-2">
+                                        <h3>
+                                            <a style="color: #FF2223;" href="">NAM</a>
+                                        </h3>
+                                        <ul>
+                                            <li><a href="">Áo</a></li>
+                                            <li><a href="">Quần</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">lifestyle</a></li>
+                    <li class="navbar-left-menu"><a href="">về chúng tôi</a>
+                        <div class="navbar-left-dropdown_about">
+                            <div class="navbar-left-dropdown-about-sub">
+                                <h3>
+                                    <a href="">Về IVY moda</a>
+                                    <a href="">Fashion Show</a>
+                                    <a href="">Hoạt động cộng đồng
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="navbar-right col-md-6">
+                    <img width="140px" height="45px" src="https://pubcdn.ivymoda.com/ivy2/images/logo.png" alt="">
+                    <div class="navbar-right-input">
+                        <i style="position: absolute; top: 50%; transform: translateY(-50%); left: 4%;"
+                            class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="TÌM KIẾM SẢN PHẨM">
+                    </div>
+
+                    <div class="navbar-right-icon">
+                        <i class="fa-solid fa-headphones"></i>
+                        <i class="fa-regular fa-user"></i>
+                        <a href=""><i style="position: relative;" class="fa-solid fa-cart-shopping"></i> </a> <sup
+                            style="position: absolute; top: 20%; background-color: black; color: #fff;border-radius: 50%; padding: 6px 4px;">1</sup>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://pubcdn.ivymoda.com/files/news/2023/12/06/d0f3481e225bb9bd41e79eca88b1cf67.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://pubcdn.ivymoda.com/files/news/2023/12/06/14278a699545b1d2a97c85c9fbcf4cee.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://pubcdn.ivymoda.com/files/news/2023/12/02/bb2bdd4a04fb1200d172f4841ba23110.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>NEW ARRIVAL</h1>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">IVY moda</button>
+
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                        type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"> IVY men
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                        type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">IVY kids
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/23/8eddd48a870a6516c37d137ba1a97b61.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/03/c5a14d0c400f5de810294d034def01e9.jpg"
+                                        alt=""></a>
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">Áo Tweed Dáng Ngắn</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">1.790.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/11/16/055ee2b6924333e8d2c5aa90c834e34d.JPG"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/11/16/f67a97c4da0afebd7e4a1c149f21ae3c.JPG"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">Áo Sơ Mi Lụa Cổ Kiểu</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">990.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/11/21/c9c9f0edf145067fcf19b0f8dfe1f16a.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/11/21/414c50c06497201cacbf0892eba8e91b.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">Crepe Dress - Đầm Ôm Tạo Kiểu</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">1.590.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/12/01/d26ff2f7d0d970072b4922cc9fd9847f.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/11/24/87ed914427702864b65e80328729e29c.JPG"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">Chân Váy Chữ A Xếp Ly Chéo</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">1.190.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/11/16/9ba71dd4f3e2debbb237357c7a3c2111.JPG"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/11/16/6d159e0e1b4afd61288a4ab937de6158.JPG"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">Áo Khoác Twill Dáng Lửng</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">1.490.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-md-24 col-6">
+
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/16/cd9044f5aa244fe3df9c359e88c06583.JPG"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/16/f8e02d4c01df1956c2d0e95d201d3c5f.JPG"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">Áo Tweed Dáng Ngắn</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">1.790.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/16/41b99472d2fb32e2b9f6e9ad15b22a53.JPG"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/19/c82db884bf9c0911e23d51d7bc3f598e.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO VEST CỔ HAI VE</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">800.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/19/cc1bab81508dab3a269a3a8a16b183ed.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/19/42e727dabd4ed9d7cafae3f8a2c3d7dc.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">Áo Vest Cổ Hai Ve</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">800.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/19/5d7c7a97a0b0165b5ff45f783390bfbc.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/19/da07f2cd105c1ad7eed771eddd9e2255.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">Áo Vest Cổ Hai Ve</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">800.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2022/01/24/9c42e0f8d9280558f83069a1d76f69ad.JPG"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2022/01/24/02ffc2df3f4bb742eff5c05262abaef3.JPG"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO KHOÁC NAM DÁNG LỬNG</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">822.500đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/e628adabbc9c483f9754800cc829ec7f.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/009b8dfd97f76711f50f3b8d246e2a6c.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO POLO FIGHT</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">499.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/2aca485f4f57a586e08064d01b94cf92.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/307af8ffc9ab7604f49ab4066a61966f.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO THUN CLASSIC</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">349.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/7a8abd351cbfcb82398ae74cd69339d7.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/387fbc00ff8689614973f5e1505e50b6.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO THUN CLASSIC</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">349.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/09/13/379600241024350c36208aa3b0628176.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/09/13/19052e45409a4b2867dd4fba061024d1.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO POLO FIGHT</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">499.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-news ticker">
+                                    NEW
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/1d6f34c7195c59cd146d4998e4c45b2d.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/1d6f34c7195c59cd146d4998e4c45b2d.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO POLO FIGHT</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">499.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="link-product">
+                <a href="">Xem tất cả</a>
+            </div>
+            <div class="title-section">
+                <h1 style="font-weight: 500;">CHÀO THÁNG 12 | SALE ĐẬM SÂU | CHỈ CÓ TẠI ONLINE</h1>
+            </div>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-panes"
+                        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">IVY moda</button>
+
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-panes"
+                        type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"> IVY men
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-panes"
+                        type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">IVY kids
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-panes" role="tabpanel" aria-labelledby="home-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/11/23/13185f82ede86628b58d01cdf93885e6.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/11/02/898f52603529a7e4f8beadfa2c0fe40a.jpg"
+                                        alt=""></a>
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">SHEATH SET - ÁO KHOÁC LỬNG CÙNG ĐẦM XÒE</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">1.690.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/24/159b7f2126279bdc541f3720543affbc.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/11/21/f5a9707463bb89b5cefe60352ebc9be2.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">SILVER MIST BLAZER</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">895.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/11/16/28425834c6bb1973bb1a329b8436ada7.JPG"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/11/16/7fb264a1e8907fbe25c6704a0fdfd05e.JPG"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ORANGE TWEED - ÁO DẠ SUÔNG DÁNG NGẮN</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">995.000đ </span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/23/fd348028d4fad084688f793dd70c4a46.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/e8d12f10fc80c4b0a08dd8f5ba95ba53.JPG"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">Trench Coat - Áo Khoác Măng Tô Có Đai</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">1.745.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/04/59beb7064e30713741c38b8c2b600659.JPG"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/04/6cdba522304c9ef0054dd5282ffdd3fb.JPG"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">PHEDRA VEST - ÁO VEST XẾP CHÉO</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">895.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile-tab-panes" role="tabpanel" aria-labelledby="profile-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-md-24 col-6">
+
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/16/cd9044f5aa244fe3df9c359e88c06583.JPG"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/16/f8e02d4c01df1956c2d0e95d201d3c5f.JPG"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">Áo Tweed Dáng Ngắn</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">1.790.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/16/41b99472d2fb32e2b9f6e9ad15b22a53.JPG"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/19/c82db884bf9c0911e23d51d7bc3f598e.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO VEST CỔ HAI VE</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">800.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/19/cc1bab81508dab3a269a3a8a16b183ed.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/19/42e727dabd4ed9d7cafae3f8a2c3d7dc.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">Áo Vest Cổ Hai Ve</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">800.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/19/5d7c7a97a0b0165b5ff45f783390bfbc.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2020/10/19/da07f2cd105c1ad7eed771eddd9e2255.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">Áo Vest Cổ Hai Ve</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">800.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2022/01/24/9c42e0f8d9280558f83069a1d76f69ad.JPG"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2022/01/24/02ffc2df3f4bb742eff5c05262abaef3.JPG"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO KHOÁC NAM DÁNG LỬNG</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">822.500đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contact-tab-panes" role="tabpanel" aria-labelledby="contact-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/e628adabbc9c483f9754800cc829ec7f.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/009b8dfd97f76711f50f3b8d246e2a6c.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO POLO FIGHT</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">499.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/2aca485f4f57a586e08064d01b94cf92.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/307af8ffc9ab7604f49ab4066a61966f.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO THUN CLASSIC</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">349.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/7a8abd351cbfcb82398ae74cd69339d7.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/387fbc00ff8689614973f5e1505e50b6.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO THUN CLASSIC</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">349.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/09/13/379600241024350c36208aa3b0628176.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/09/13/19052e45409a4b2867dd4fba061024d1.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO POLO FIGHT</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">499.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-24 col-6">
+                            <div class="image-container">
+                                <div class="ticker-bestseller tickers">
+                                    Best Seller
+                                </div>
+                                <a href=""><img width="100%" class="default-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/1d6f34c7195c59cd146d4998e4c45b2d.jpg"
+                                        alt=""></a>
+                                <a href=""><img width="100%" class="hover-image"
+                                        src="https://pubcdn.ivymoda.com/files/product/thumab/1400/2023/10/09/1d6f34c7195c59cd146d4998e4c45b2d.jpg"
+                                        alt=""></a>
+                            </div>
+                            <div class="product-icon">
+                                <a href=""><i class="fa-solid fa-circle-check"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <p><a id="hover" href="">ÁO POLO FIGHT</a></p>
+                            <div style="padding: 10px 0; display: flex; width: 100%;justify-content: space-between;"
+                                class="product-price">
+                                <span style="font-size: 16px; color: #444; font-weight: 600;">499.000đ</span>
+                                <a href=""><i style="font-size: 16px; color: black;"
+                                        class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="link-product">
+                <a href="">Xem tất cả</a>
+            </div>
+            <div class="title-section">
+                <h1 style="font-weight: 500;">THÊM ƯU ĐÃI 10% CHO COMBO ÁO PHAO + LEN/ THUN</h1>
+            </div>
+            <div class="section">
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <div class="section-product">
+                            <a href=""><img width="100%"
+                                    src="https://pubcdn.ivymoda.com/files/news/2023/12/06/7245db389e40305cabec2263fc9ee15e.jpg"
+                                    alt=""></a>
+                            <a href="">
+                                <p>Ngày đông cho nàng xu hướng</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="section-product">
+                            <a href=""><img width="100%"
+                                    src="https://pubcdn.ivymoda.com/files/news/2023/12/06/5519cedfeb1ca8b781184e8570daf06f.jpg"
+                                    alt=""></a>
+                            <a href="">
+                                <p>Ấm áp cùng quý anh hiện đại</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="section-product">
+                            <a href=""><img width="100%"
+                                    src="https://pubcdn.ivymoda.com/files/news/2023/12/06/86ce1c5e67606cddd45bc4af3e3ce87e.jpg"
+                                    alt=""></a>
+                            <a href="">
+                                <p>Đồ đôi cho mẹ và bé</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="section-product">
+                            <a href=""><img width="100%"
+                                    src="https://pubcdn.ivymoda.com/files/news/2023/12/06/c543166111c4d9d652826c3f33f7f607.jpg"
+                                    alt=""></a>
+                            <a href="">
+                                <p>Bố con mình diện đồ đông</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="banner">
+                <img width="100%"
+                    src="https://pubcdn.ivymoda.com/files/news/2023/11/27/d7bea62f7ff152d7ff4f5431ca163ca3_1.jpg"
+                    alt="">
+            </div>
+            <div class="title-section">
+                <h1 style="font-weight: bold; margin-bottom: 20px;">GALLERY</h1>
+            </div>
+            <div class="gallery">
+                <div class="row">
+                    <div id="gallery-img" class="col-md-24 col-6 ">
+                        <img width="100%" src="https://pubcdn.ivymoda.com/files/news/2023/11/30/53f7f6d773116817730bfcc758e9164e.jpg" alt="">
+                    </div>
+                    <div id="gallery-img" class="col-md-24 col-6">
+                        <img width="100%" src="https://pubcdn.ivymoda.com/files/news/2023/11/30/cf473ee8709a6b631f00cfad5b6c92cf.jpg" alt="">
+                    </div>
+                    <div id="gallery-img" class="col-md-24 col-6">
+                        <img width="100%" src="https://pubcdn.ivymoda.com/files/news/2023/11/30/f36634ebcd6bfe9f2de49a1bb4c1b09b.jpg" alt="">
+                    </div>
+                    <div id="gallery-img" class="col-md-24 col-6">
+                        <img width="100%" src="https://pubcdn.ivymoda.com/files/news/2023/11/30/f835e9f1c43703d20fbfb7b1d9020207.jpg" alt="">
+                    </div>
+                    <div id="gallery-img" class="col-md-24 col-6">
+                        <img width="100%" src="https://pubcdn.ivymoda.com/files/news/2023/11/30/ee162f8d36cff9d3269f2b2039ea6a00.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-md-3 col-12">
+                        <div class="footer-logo">
+                            <img style="margin-left: 0;" src="https://pubcdn.ivymoda.com/ivy2/images/logo-footer.png" alt="">
+                            <img src="https://images.dmca.com/Badges/dmca_protected_16_120.png?ID=0cfdeac4-6e7f-4fca-941f-57a0a0962777" alt="">
+                            <img src="https://pubcdn.ivymoda.com/ivy2/images/img-congthuong.png" alt="">
+                        </div>
+                        <p>Công ty Cổ phần Dự Kim với số đăng ký kinh doanh: 0105777650</p>
+                        <p><strong style="color: black;">Địa chỉ đăng ký:</strong> Tổ dân phố Tháp, P.Đại Mỗ, Q.Nam Từ Liêm, TP.Hà Nội, Việt Nam</p>
+                        <p><strong style="color: black";>Số điện thoại:</strong> 0243 205 2222/ 090 589 8683</p>
+                        <p><strong style="color: black;">Email:</strong> cskh@ivy.com.vn</p>
+                        <div class="footer-icon">
+                            <img style="margin-left: 0;" src="https://pubcdn.ivymoda.com/ivy2/images/ic_fb.svg" alt="">
+                            <img src="https://pubcdn.ivymoda.com/ivy2/images/ic_gg.svg" alt="">
+                            <img style="height: 30px; width: 30px;" src="https://pubcdn.ivymoda.com/ivy2/images/ic_instagram.svg" alt="">
+                            <img style="height: 30px; width: 30px;" src="https://pubcdn.ivymoda.com/ivy2/images/ic_pinterest.svg" alt="">
+                            <img src="https://pubcdn.ivymoda.com/ivy2/images/ic_ytb.svg" alt="">
+                        </div>
+                        <div href="" class="footer-hotline">
+                            <a href="">HOTLINE: 0246 662 3434</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="row">
+                            <div class="col-3">
+                                <h2>Giới thiệu</h2>
+                                <p>Về IVY moda</p>
+                                <p>Tuyển dụng</p>
+                                <p>Hệ thống cửa hàng</p>
+                            </div>
+                            <div class="col-6">
+                                <h2>Dịch vụ khách hàng</h2>
+                                <p>Chính sách điều khoản</p>
+                                <p>Hướng dẫn mua hàng</p>
+                                <p>Chính sách thanh toán</p>
+                                <p>Chính sách đổi trả</p>
+                                <p>Chính sách bảo hành</p>
+                                <p>Chính sách giao nhận vận chuyển</p>
+                                <p>Chính sách thẻ thành viên</p>
+                                <p>Hệ thống cửa hàng</p>
+                                <p>Q&A</p>
+                            </div>
+                            <div class="col-3">
+                                <h2>Liên hệ</h2>
+                                <p>Hotline</p>
+                                <p>Email</p>
+                                <p>Live Chat</p>
+                                <p>Messenger</p>
+                                <p>Liên hệ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="footer-email">
+                            <h2 style="font-size: 19px;
+                            padding: 10px 0;
+                            font-weight: 600;">Nhận thông tin các chương trình của IVY moda</h3>
+                            <input type="text" placeholder="Nhập địa chỉ email"> <a href="">Đăng ký</a>
+                        </div>
+
+                        <div class="footer-download">
+                            <h2 style="font-weight: 600; margin: 20px 0;">Download App</h2>
+                            <img src="https://pubcdn.ivymoda.com/ivy2/images/appstore.png" alt="">
+                            <img src="https://pubcdn.ivymoda.com/ivy2/images/googleplay.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©IVYmoda All rights reserved</p>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('.toggle').click(function () {
+                var btn = $('.navbar-mobile').toggleClass('show');
+            })
+        })
+    </script>
+</body>
+
+</html>
